@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  column-gap: 25px;
+  margin-bottom: 64px;
+}
+
+.gallery_title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.gallery_image {
+  border-radius: 20px;
+  flex: auto 0 0;
+  width: 587px;
+  max-height: 308px;
+  object-fit: cover;
+  object-position: 50% 55%;
+}

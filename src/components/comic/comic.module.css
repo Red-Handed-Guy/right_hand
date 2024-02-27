@@ -1,0 +1,19 @@
+.container {
+  max-width: 383px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-bottom: 60px;
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.title {
+  min-height: 85px;
+}

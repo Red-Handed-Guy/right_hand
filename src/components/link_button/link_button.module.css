@@ -1,0 +1,19 @@
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 8px 39px;
+  background-color: var(--Color-Yellow);
+  align-self: flex-start;
+  border-radius: 20px;
+  border: 1px solid var(--Color-Yellow);
+}
+
+.link:hover {
+  border: 1px solid var(--Color-Blue);
+  background-color: transparent;
+}
+
+.link:active {
+  border: 1px solid transparent;
+  background-color: var(--Color-Orange);
+}

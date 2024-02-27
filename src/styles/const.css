@@ -1,0 +1,58 @@
+:root {
+  --Color-Orange: #fdaf41;
+  --Color-Yellow: #ffd670;
+  --Color-Blue: #70a9ff;
+  --Color-Black: #232323;
+  --Font-Palatino-Linotype: 'Palatino Linotype', Arial, Helvetica, sans-serif;
+  --Font-Mulish: 'Mulish', Arial, Helvetica, sans-serif;
+}
+
+.text_H1 {
+  color: var(--Color-Black);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--Font-Palatino-Linotype);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text_H2 {
+  font-family: var(--Font-Palatino-Linotype);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  color: var(--Color-Black);
+}
+
+.text_T24_Regular {
+  color: var(--Color-Black);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--Font-Mulish);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_T18_Regular {
+  color: var(--Color-Black);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--Font-Mulish);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_T18_Medium {
+  color: var(--Color-Black);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--Font-Mulish);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
