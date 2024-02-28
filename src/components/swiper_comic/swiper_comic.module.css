@@ -1,0 +1,55 @@
+.swiper_container {
+  width: 100%;
+}
+
+.swiper_slide {
+  display: flex;
+  justify-content: center;
+  cursor: grab;
+}
+
+.swiper_slide:active {
+  cursor: grabbing;
+}
+
+.img {
+  max-width: 792px;
+  width: 100%;
+  height: 1280px;
+  object-fit: contain;
+  object-position: center;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .img {
+    height: 768px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img {
+    height: 572px;
+  }
+}
+
+.swiper-pagination-current {
+  background-color: red;
+  color: red;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.buttons_wrapper {
+  width: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: -4px;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%);
+}

@@ -8,8 +8,16 @@ interface LinkButtonInterface {
 }
 
 const LinkButton: FC<LinkButtonInterface> = ({ link, text }) => {
+  const handleClick = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
-    <Link className={`text_T18_Medium ${styles.link}`} to={'/' + link}>
+    <Link
+      onClick={handleClick}
+      className={`text_T18_Medium ${styles.link}`}
+      to={'/' + link}
+    >
       {text}
     </Link>
   )

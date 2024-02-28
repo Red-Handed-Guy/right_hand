@@ -1,0 +1,17 @@
+.article_container {
+  width: 100%;
+  margin-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .article_container {
+    row-gap: 32px;
+  }
+}

@@ -1,6 +1,4 @@
-.container {
-  display: flex;
-  column-gap: 25px;
+.gallery_section {
   margin-bottom: 64px;
 }
 
@@ -9,11 +7,11 @@
   margin-bottom: 64px;
 }
 
-.gallery_image {
-  border-radius: 20px;
-  flex: auto 0 0;
-  width: 587px;
-  max-height: 308px;
-  object-fit: cover;
-  object-position: 50% 55%;
+@media (max-width: 768px) {
+  .gallery_title {
+    margin-bottom: 32px;
+  }
+  .gallery_section {
+    margin-bottom: 32px;
+  }
 }

@@ -9,7 +9,7 @@
 }
 
 .link:hover {
-  border: 1px solid var(--Color-Blue);
+  border: 1px solid var(--Color-Black);
   background-color: transparent;
 }
 

@@ -56,3 +56,14 @@
   font-weight: 500;
   line-height: normal;
 }
+
+.nav-btn {
+  width: 20px;
+  height: 20px;
+  display: block;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+}

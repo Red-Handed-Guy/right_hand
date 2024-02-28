@@ -1,0 +1,13 @@
+.swiper_container {
+  width: 100%;
+  cursor: grab;
+}
+
+.swiper_slide:active {
+  cursor: grabbing;
+}
+
+.swiper_slide {
+  display: flex;
+  justify-content: center;
+}

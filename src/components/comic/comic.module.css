@@ -15,5 +15,9 @@
 }
 
 .title {
-  min-height: 85px;
+  height: 64px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
