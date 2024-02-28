@@ -59,6 +59,7 @@ const SwiperComicsGallery: FC<MyComponentInterface> = ({
       scrollbar={false}
       pagination={true}
       mousewheel-enabled={true}
+      mousewheel-release-on-edges={true}
       pagination-clickable="true"
       style={{
         '--swiper-pagination-bullet-width': '19px',
