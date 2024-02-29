@@ -35,7 +35,9 @@ const ComicPage: FC = () => {
     if (comic) {
       setActiveComic(comic)
     }
-    setMockComicsFiltered(mockComics.filter(comic => comic.id !== +params.id))
+    setMockComicsFiltered(
+      mockComics.filter(comicItem => comicItem.id !== +params.id),
+    )
     setActiveComicImage(
       nums.map(num => {
         return { id: num, img: comic.img }
