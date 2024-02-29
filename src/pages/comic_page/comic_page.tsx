@@ -31,10 +31,11 @@ const ComicPage: FC = () => {
 
   useEffect(() => {
     const nums = [1, 2, 3, 4, 5]
-    const comic = mockComics.filter(comic => comic.id === +params.id)[0]
-    setActiveComic(comic)
+    const comic = mockComics.find(comic => comic.id === +params.id)
+    if (comic) {
+      setActiveComic(comic)
+    }
     setMockComicsFiltered(mockComics.filter(comic => comic.id !== +params.id))
-    console.log(mockComics.filter(comic => comic.id !== +params.id))
     setActiveComicImage(
       nums.map(num => {
         return { id: num, img: comic.img }
